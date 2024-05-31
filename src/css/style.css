@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+.container {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+}
+
+/* -------- Header Styles -------- */
+header {
+  background-color: #21274a;
+  color: #fff;
+  height: 60px;
+}
+
+header div {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  letter-spacing: 0.1px;
+  font-size: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  line-height: 60px;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* -------- Banner Styles -------- */
+
+.banner {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.banner h1 {
+  color: #444;
+}
+
+.banner p {
+  margin: 20px auto;
+  font-size: 17px;
+}
+
+/* -------- Button Styles -------- */
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 7px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #0072eb;
+}
+
+.secondary {
+  border: 1px solid #007bff;
+  color: #007bff;
+  background-color: #fff;
+}
+
+.secondary:hover {
+  border: 1px solid #004c9d;
+  color: #004c9d;
+}
+
+/* -------- Gallery Styles -------- */
+
+.gallery {
+  background-color: #f5eee8;
+  padding: 50px;
+}
+
+.gallery-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
+}
+
+.gallery img {
+  width: 255px;
+  height: 355px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* -------- Footer Styles -------- */
+
+footer {
+  background-color: #64442c;
+}
+
+footer div {
+  text-align: center;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-nav {
+  display: flex;
+  gap: 20px;
+}
+
+footer .footer-nav p {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+footer .footer-nav p:hover {
+  text-decoration: underline;
+}
